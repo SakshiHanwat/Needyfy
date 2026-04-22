@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange-DEFAULT: #F97316;
+  --color-orange-dark: #EA580C;
+  --color-orange-light: #FFF7ED;
+  --color-brand-green: #10B981;
+  --color-brand-red: #EF4444;
+  --color-brand-amber: #F59E0B;
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-inter);
+  background: #FAFAFA;
+  color: #0F172A;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-playfair);
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablet — 1024px */
+@media (max-width: 1024px) {
+
+  /* Landing page grids */
+  .grid-2 { grid-template-columns: 1fr !important; }
+  .grid-3 { grid-template-columns: 1fr 1fr !important; }
+  .grid-4 { grid-template-columns: 1fr 1fr !important; }
+
+}
+
+/* Mobile — 768px */
+@media (max-width: 768px) {
+
+  /* Hide sidebar on mobile */
+  aside {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  /* Dashboard main content full width */
+  main {
+    margin-left: 0 !important;
+    padding: 16px !important;
+  }
+
+  /* Stats grid — 2 columns on mobile */
+  .stats-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+  }
+
+  /* Hero text smaller */
+  h1 {
+    font-size: 36px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  /* Landing page hero buttons stack */
+  .hero-buttons {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  /* Login page — single column */
+  .auth-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Hide left image on login mobile */
+  .auth-image {
+    display: none !important;
+  }
+
+  /* Cards full width */
+  .card-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Stats strip — 2 columns */
+  .stats-strip {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 16px !important;
+  }
+
+  /* Nav links hide on mobile */
+  .nav-links {
+    display: none !important;
+  }
+
+  /* Heatmap right panel hide */
+  .map-panel {
+    display: none !important;
+  }
+
+  /* Survey grid single column */
+  .survey-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Bottom grid single column */
+  .bottom-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Volunteer dashboard grid */
+  .vol-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Steps grid */
+  .steps-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Impact grid */
+  .impact-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Register form padding */
+  .register-form {
+    padding: 24px !important;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block !important;
+  }
+}
+/* Small mobile — 480px */
+@media (max-width: 480px) {
+
+  /* Stats — single column */
+  .stats-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stats-strip {
+    grid-template-columns: 1fr !important;
+  }
+
+  .impact-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Smaller hero */
+  h1 {
+    font-size: 28px !important;
+  }
+
+  h2 {
+    font-size: 22px !important;
+  }
+
+  /* Padding reduce */
+  section {
+    padding: 48px 16px !important;
+  }
+}
+@media (max-width: 768px) {
+  .vol-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+  }
+
+  /* Volunteer page nav links hide */
+  .vol-nav {
+    display: none !important;
+  }
+
+  /* Tab buttons scroll */
+  .tab-scroll {
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+  }
+}
