@@ -9,7 +9,11 @@
 
 **Connecting NGOs with the right volunteers at the right time — built for India.**
 
-[🌐 Live App](https://needyfy.web.app) · [📽️ Demo Video](#) · [📊 Presentation](#)
+[🌐 Live App]([https://needyfy.web.app](https://needyfy-q1pk.vercel.app/
+)<img width="482" height="62" alt="image" src="https://github.com/user-attachments/assets/c1046e19-1f47-4c04-aa1c-378b6fd4ddbf" />
+) · [📽️ Demo Video]([#](https://www.youtube.com/watch?v=dODQbE6-Kto
+)<img width="635" height="56" alt="image" src="https://github.com/user-attachments/assets/7e092d05-6307-45f1-bf72-c4d1a5ee53da" />
+) · 
 
 </div>
 
