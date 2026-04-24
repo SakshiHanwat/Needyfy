@@ -258,7 +258,7 @@ export default function Dashboard() {
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                 {[
                   { label: "Upload paper survey", href: "/dashboard/survey", color: "#F97316", bg: "#FFF7ED", icon: "⊕" },
-                  { label: "Add new need manually", href: "/dashboard/needs/add", color: "#8B5CF6", bg: "#F5F3FF", icon: "+" },
+                  { label: "Add new need manually", href: "/dashboard/needs", color: "#8B5CF6", bg: "#F5F3FF", icon: "+" },
                   { label: "Find volunteers nearby", href: "/dashboard/volunteers", color: "#10B981", bg: "#F0FDF4", icon: "◎" },
                   { label: "View urgency heatmap", href: "/dashboard/needs", color: "#EF4444", bg: "#FEF2F2", icon: "◉" },
                 ].map(action => (
